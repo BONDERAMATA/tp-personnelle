@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+.contenaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #2d322d, #33cd6e, );
+    background: linear-gradient(rgba(9, 231, 9, 0.1),#046304),url("koom.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 100vh;
+    
+}
+ .contenaire > h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+ }
+ .contenaire > img{
+    margin-top: -460px;
+    margin-left: -600px;
+ }
+ .contenaire > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 30px;
+ }
+
+ .contenaire > form > input {
+    border-radius: 50px;
+    font-size: 20px;
+    border: 0px solid rgb(255, 0, 0);
+    box-shadow: 1px 1px 3px rgb(0, 0, 0);
+    box-shadow: -1px 0px 3px rgb(0, 0, 0);
+    width: 300px;
+    padding: 5px;
+ }
+ .contenaire > form .submit {
+    color: rgb(255, 255, 255);
+    background: rgb(255, 0, 0);
+    width: 150px;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: font-size 1s
+ }
+
+ .contenaire > form .submit:hover {
+    background-color: rgb(209, 0, 0);
+    font-size: 25px;
+    
+    
+  }
+ .but > a{
+     text-decoration: none;
+     color: white;
+     font-size: 15px;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: -10px;
+     transition: font-size 1s;
+ }
+ .but > a:hover{
+     
+     color: rgb(0, 0, 0);
+     font-size: 20px;
+     
+ }
+ .but{
+    background-color: #ffffff00;
+  
+ 
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: background-color 0.8s;
+    margin-left: 80%;
+    margin-top: 20px;
+    margin-bottom: -50px;
+ }
+ .but:hover {
+    background-color: #ffffff;
+    border: none;
+  }
